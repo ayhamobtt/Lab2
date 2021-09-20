@@ -38,6 +38,7 @@ class MySecondClass { };
 #include"iostream"
 
 using namespace std;
+using namespace CST8219;
 
 class Vehicle
 {
