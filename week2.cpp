@@ -58,7 +58,6 @@ class Vehicle
 public:
 	Vehicle(int w, int d);
 	Vehicle(int w);
-	Vehicle(int w);
 	Vehicle();
 	~Vehicle();
 };
@@ -95,6 +94,7 @@ Vehicle::~Vehicle()
 int main(int argc, char** argv)
 {
 	Vehicle myVehicle(4, 2); 
+	Vehicle myVehicle(4, 2);
 	Vehicle myVehicle; 
 	//An object will be created by calling Vehicle(), two intermediate object, total three objects
 	Vehicle CST8219 = Vehicle(4);
