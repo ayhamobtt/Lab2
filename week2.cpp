@@ -80,7 +80,7 @@ int main(int argc, char** argv)
 {
 	Vehicle myVehicle(4); Vehicle CST8219 ;
 	Vehicle myVehicle(4, 2); 
-	Vehicle myVehicle; //An object will be created by calling Vehicle(), two intermediate object, total three objects
+	Vehicle myVehicle; CST8219; //An object will be created by calling Vehicle(), two intermediate object, total three objects
 	cout << "I made a Vehicle" << endl;
 	return 0;
 }
