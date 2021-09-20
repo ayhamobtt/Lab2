@@ -58,6 +58,7 @@ class Vehicle
 public:
 	Vehicle(int w, int d);
 	Vehicle(int w);
+	Vehicle(int w);
 	Vehicle();
 	~Vehicle();
 };
