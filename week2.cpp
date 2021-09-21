@@ -17,7 +17,7 @@ namespace cst8219 {
 		Vehicle();
 		~Vehicle();
 	};
-
+	#Finished constructors
 	// this first method/constractor talks no parameters 
 	Vehicle::Vehicle()
 	{
@@ -41,9 +41,10 @@ namespace cst8219 {
 		cout << "Constructor with 2 parameter" << endl;
 	}
 	//that is the deconstractore calling automatically fuction
+	#Finished destructor
 	Vehicle::~Vehicle()
 	{
-		cout << " “In destructo" << endl;
+		cout << " â€œIn destructo" << endl;
 	}
 
 	// the main method
