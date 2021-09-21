@@ -1,6 +1,9 @@
 #include"iostream"
+
 using namespace std;
+
 namespace cst8219 {
+
 	class Vehicle
 		// initlaizing two integer varibales by private defualt access
 	{
@@ -47,7 +50,7 @@ namespace cst8219 {
 	int main(int argc, char** argv)
 	{
 
-		Vehicle myVehicle();
+		cst8219:Vehicle myVehicle();
 
 		//An object will be created by calling Vehicle(), two intermediate object, total three objects
 		cout << "I made a Vehicle" << endl;
