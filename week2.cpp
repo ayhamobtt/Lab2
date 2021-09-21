@@ -1,50 +1,3 @@
-
-#include<iostream>
-
-using namespace std;
-
-class MyFirstClass { 
-private:
-	int age;
-	char* firstName, * lastName;
-
-public:
-	MyFirstClass() : MyFirstClass(0,NULL,NULL) {
-
-	}
-	MyFirstClass(int a, char* f, char* l) 
-	{
-		age = a;
-		firstName = f;
-		lastName = l;  
-	}
-
-	~MyFirstClass() {
-		int i = 0; i++;
-	}
-	int getAge() { return age; }
-	char* getFirstName() { return firstName; }
-	char* getlastName() { return lastName; }
-	
-protected: 
-	void setFirstName(char* f) { firstName = f; }
-	void setLastName(char* l) { lastName = l; }
-
-};
-
-class MySecondClass { };
-
-
-
-
-
-
-
-
-
-
-
-
 #include"iostream"
 using namespace std;
 namespace cst8219 {
@@ -93,10 +46,9 @@ namespace cst8219 {
 	// the main method
 	int main(int argc, char** argv)
 	{
-		Vehicle myVehicle(4, 2);
-		Vehicle myVehicle(4);
-		Vehicle myVehicle;
-		
+
+		Vehicle myVehicle();
+
 		//An object will be created by calling Vehicle(), two intermediate object, total three objects
 		cout << "I made a Vehicle" << endl;
 		return 0;
