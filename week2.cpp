@@ -41,7 +41,7 @@ namespace cst8219 {
 		cout << "Constructor with 2 parameter" << endl;
 	}
 	//that is the deconstractore calling automatically fuction
-	#Finished destructor
+	Finished destructor
 	Vehicle::~Vehicle()
 	{
 		cout << " “In destructo" << endl;
@@ -50,7 +50,7 @@ namespace cst8219 {
 	// the main method
 	int main(int argc, char** argv)
 	{
-
+	Demo #1
 		cst8219:Vehicle myVehicle();
 
 		//An object will be created by calling Vehicle(), two intermediate object, total three objects
